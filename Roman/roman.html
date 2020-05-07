@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <title>Roman to Int</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="well">Roman to Integer</h1>
+        <div class="col-lg-12 well">
+            <div class="form-group">
+                <label>Roman Numeral</label>
+                <input type="text" name="roman" id="roman" placeholder="Enter valid Roman Numeral " class="form-control">
+                <span class=" error" id="error"></span>
+            </div>
+            <button type="submit" class="btn btn-lg btn-info" name="submit" onclick="roman_to_int(); ">Convert</button>
+            <div class="form-group ">
+                <label>Integer Numeral</label>
+                <input type="text" name="num" id="num" value="" class="form-control" disabled>
+            </div>
+
+        </div>
+    </div>
+    <script src="/roman/roman.js"></script>
+</body>
+
+</html>
